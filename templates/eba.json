@@ -1,0 +1,233 @@
+{
+    "_type": "xbrl",
+    "_tags": ["EBA"],
+    "_name": "eba",
+    "name": "EBA",
+    "title": "Reporting framework provided by the European Banking Authority",
+    "description": "For EBA relevant data transmission or collecting data for credit institutions and investment firms.",
+    "homepage": "https://eba.europa.eu/risk-analysis-and-data/reporting-frameworks",
+    "entrypointGroups": [
+        {
+            "shortName": "AE",
+            "longName": "Asset Encumbrance"
+        },
+        {
+            "shortName": "COREP_Con",
+            "longName": "Cosolidated Common Reporting"
+        },
+        {
+            "shortName": "COREP_Ind",
+            "longName": "Individual Common Reporting"
+        },
+        {
+            "shortName": "COREP_ALM",
+            "longName": "Common Reporting - Additional Liquidity Monitoring"
+        },
+        {
+            "shortName": "COREP_FRTB",
+            "longName": "Common Reporting - Fundamental Review of the Trading Book"
+        },
+        {
+            "shortName": "COREP_LR",
+            "longName": "Common Reporting - Leverage Ratio"
+        },
+        {
+            "shortName": "COREP_LCR",
+            "longName": "Common Reporting - Liquidity Coverage"
+        },
+        {
+            "shortName": "COREP_LE",
+            "longName": "Common Reporting - Large Exposures"
+        },
+        {
+            "shortName": "COREP_NSFR",
+            "longName": "Common Reporting - Stable Funding"
+        },
+        {
+            "shortName": "COREP_OF",
+            "longName": "Common Reporting - Own Funds"
+        },
+        {
+            "shortName": "COVID19",
+            "longName": "Moratoria COVID19"
+        },
+        {
+            "shortName": "FINREP",
+            "longName": "Financial Reporting"
+        },
+        {
+            "shortName": "FP",
+            "longName": "Funding Plans"
+        },
+        {
+            "shortName": "GSII",
+            "longName": "Global Systematically Important Insurers"
+        },
+        {
+            "shortName": "IF",
+            "longName": "Investment Firms"
+        },
+        {
+            "shortName": "MREL",
+            "longName": "Minimum Requirements for own Funds and Eligible Liabilities"
+        },
+        {
+            "shortName": "NOTIF",
+            "longName": "Notifications"
+        },
+        {
+            "shortName": "PSD",
+            "longName": "Payments Service Directive"
+        },
+        {
+            "shortName": "REM",
+            "longName": "Remuneration"
+        }, 
+        {
+            "shortName": "RESOL",
+            "longName": "Resolution"
+        },
+        {
+            "shortName": "SBP",
+            "longName": "Supervisory Benchmarking Portfolios"
+        },
+        {
+            "shortName": "SBPIMV",
+            "longName": "Initial Market Value of Supervisory Benchmarking Portfolios"
+        }
+
+    ],
+    "_software_minver": {
+        "XS::E": "23.0",
+        "MF::E": "23.0",
+        "SV::E": "23.0",
+        "RS::L": "23.0",
+        "SS::Z": "23.0",
+        "MS::A": "23.0",
+        "MS::Z": "23.0",
+        "RX::W": "23.0",
+        "RX::E": "23.0",
+        "RX::I": "23.0",
+        "RX::S": "23.0",
+        "RX::R": "23.0"
+    },
+    "instances": [
+        {
+            "_semver": "2.5.0",
+            "version": "2.5.0.1",
+            "major_version": "2.5",
+            "files": [
+                "EBA::2.5.0.1"
+            ],
+            "disabled_validation_rules": "eba-2.5_rules.txt"
+        },
+        {
+            "_semver": "2.6.0",
+            "version": "2.6.0.0",
+            "major_version": "2.6",
+            "files": [
+                "EBA::2.6.0.1"
+            ],
+            "disabled_validation_rules": "eba-2.6_rules.txt"
+        },
+        {
+            "_semver": "2.7.0",
+            "version": "2.7.0.1",
+            "major_version": "2.7",
+            "files": [
+                "EBA::2.7.0.0",
+                "EBA::2.7.0.1"
+            ],
+            "disabled_validation_rules": "eba-2.7_rules.txt"
+        },
+        {
+            "_semver": "2.8.0",
+            "version": "2.8.1.1",
+            "major_version": "2.8",
+            "files": [
+                "EBA::2.7.0.2",
+                "EBA::2.8.1.1"
+            ],
+            "disabled_validation_rules": "eba-2.8_rules.txt"
+        },
+        {
+            "_semver": "2.9.0",
+            "version": "2.9.1.1",
+            "major_version": "2.9",
+            "files": [
+                "EBA::2.8.1.2",
+                "EBA::2.9.0.0",
+                "EBA::2.9.0.1.Phase1",
+                "EBA::2.9.0.1.Phase2",
+                "EBA::2.9.0.2",
+                "EBA::2.9.1.0",
+                "EBA::2.9.1.1"
+            ],
+            "disabled_validation_rules": "eba-2.9_rules.txt"
+        },
+        {
+            "_semver": "2.10.0",
+            "version": "2.10.1.0",
+            "major_version": "2.10 Phase 2",
+            "files": [
+                "EBA::2.10.0.1",
+                "EBA::2.10.1.0",
+                "EBA::2.10.0.0"
+            ],
+            "disabled_validation_rules": "eba-2.10_rules.txt"
+        },
+        {
+            "_semver": "3.0.0",
+            "version": "3.0.1.0",
+            "major_version": "3.0 Phase 2",
+            "files": [
+                "EBA::3.0.1.0.Phase2",
+                "EBA::3.0.0.1.Phase2",
+                "EBA::3.0.0.0.Phase1"
+            ],
+            "disabled_validation_rules": "eba-3.0_rules.txt"
+        },
+        {
+            "_semver": "3.1.0",
+            "version": "3.1.0.0",
+            "major_version": "3.1 Phase 2",
+            "files": [
+				"EBA::3.1.0.1",
+				"EBA::3.1.1.0",
+                "EBA::3.1.0.0"
+            ],
+            "disabled_validation_rules": "eba-3.1_rules.txt",
+            "conflicting_pkgs": ["eba-3.100.0"]
+        },
+        {
+            "_semver": "3.100.0",
+            "version": "3.100.0.0",
+            "major_version": "3.1 Phase 2 with node navigation functions",
+            "files": [
+				"EBA::3.1.1.2",
+				"EBA::3.1.0.2"
+            ],
+            "disabled_validation_rules": "eba-3.1_rules.txt",
+            "conflicting_pkgs": ["eba-3.1.0"],
+            "_software_minver": {
+                "XS::E": "24.0",
+                "MF::E": "24.0",
+                "SV::E": "24.0",
+                "RS::L": "24.0",
+                "SS::Z": "24.0",
+                "MS::A": "24.0",
+                "MS::Z": "24.0",
+                "RX::W": "24.0",
+                "RX::E": "24.0",
+                "RX::I": "24.0",
+                "RX::S": "24.0",
+                "RX::R": "24.0"
+            }
+        }
+    ],
+    "lictype": "Authorizing. Pasted below",
+    "licweb": "https://www.eba.europa.eu/legal-notice",
+    "comment": "Intellectual Property, 3.: Reproduction of all EBA material on this site is authorised, provided the source is\\nacknowledged, save where otherwise stated. The EBA's logo may not be used without prior permission\\nexcept when reproducing EBA material containing the logo. Where copyright vests in a third party,\\npermission for reproduction must be obtained from this copyright holder.",
+    "swname": "EBA Reporting Framework",
+    "swdescription": "xbrl taxonomy"
+}
