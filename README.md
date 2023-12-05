@@ -2,7 +2,7 @@
 
 ## :newspaper: About the project
 
-The scripts allows the user to automatically generate a license approval forms for a company internal lawyer. It is necessary to send the approval to him after a  new version of a taxonomy packages was released by the provider. Updates (minor) versions and hotfixes are not necessary to report.
+The script allows the user to automatically generate license approval forms for a company.
 
 ### Content overview
 
