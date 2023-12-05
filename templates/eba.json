@@ -97,20 +97,7 @@
         }
 
     ],
-    "_software_minver": {
-        "XS::E": "23.0",
-        "MF::E": "23.0",
-        "SV::E": "23.0",
-        "RS::L": "23.0",
-        "SS::Z": "23.0",
-        "MS::A": "23.0",
-        "MS::Z": "23.0",
-        "RX::W": "23.0",
-        "RX::E": "23.0",
-        "RX::I": "23.0",
-        "RX::S": "23.0",
-        "RX::R": "23.0"
-    },
+    "_software_minver": {},
     "instances": [
         {
             "_semver": "2.5.0",
@@ -209,20 +196,7 @@
             ],
             "disabled_validation_rules": "eba-3.1_rules.txt",
             "conflicting_pkgs": ["eba-3.1.0"],
-            "_software_minver": {
-                "XS::E": "24.0",
-                "MF::E": "24.0",
-                "SV::E": "24.0",
-                "RS::L": "24.0",
-                "SS::Z": "24.0",
-                "MS::A": "24.0",
-                "MS::Z": "24.0",
-                "RX::W": "24.0",
-                "RX::E": "24.0",
-                "RX::I": "24.0",
-                "RX::S": "24.0",
-                "RX::R": "24.0"
-            }
+            "_software_minver": {}
         }
     ],
     "lictype": "Authorizing. Pasted below",
